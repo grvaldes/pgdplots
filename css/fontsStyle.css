@@ -1,0 +1,132 @@
+/* FONTS */
+@font-face {
+    font-family: "Inconsolata";
+    src: url("../resources/fonts/Inconsolata-Regular.eot");
+    src: url("../resources/fonts/Inconsolata-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/Inconsolata-Regular.woff2") format('woff2'),
+         url("../resources/fonts/Inconsolata-Regular.woff") format('woff'),
+         url("../resources/fonts/Inconsolata-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("../resources/fonts/Inconsolata-Bold.eot");
+    src: url("../resources/fonts/Inconsolata-Bold.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/Inconsolata-Bold.woff2") format('woff2'),
+         url("../resources/fonts/Inconsolata-Bold.woff") format('woff'),
+         url("../resources/fonts/Inconsolata-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlegreyaSans";
+    src: url("../resources/fonts/AlegreyaSans-Light.eot");
+    src: url("../resources/fonts/AlegreyaSans-Light.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/AlegreyaSans-Light.woff2") format('woff2'),
+         url("../resources/fonts/AlegreyaSans-Light.woff") format('woff'),
+         url("../resources/fonts/AlegreyaSans-Light.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlegreyaSans";
+    src: url("../resources/fonts/AlegreyaSans-Bold.eot");
+    src: url("../resources/fonts/AlegreyaSans-Bold.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/AlegreyaSans-Bold.woff2") format('woff2'),
+         url("../resources/fonts/AlegreyaSans-Bold.woff") format('woff'),
+         url("../resources/fonts/AlegreyaSans-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlegreyaSans";
+    src: url("../resources/fonts/AlegreyaSans-ExtraBoldItalic.eot");
+    src: url("../resources/fonts/AlegreyaSans-ExtraBoldItalic.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/AlegreyaSans-ExtraBoldItalic.woff2") format('woff2'),
+         url("../resources/fonts/AlegreyaSans-ExtraBoldItalic.woff") format('woff'),
+         url("../resources/fonts/AlegreyaSans-ExtraBoldItalic.ttf") format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../resources/fonts/Dosis-Bold.eot");
+    src: url("../resources/fonts/Dosis-Bold.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/Dosis-Bold.woff2") format('woff2'),
+         url("../resources/fonts/Dosis-Bold.woff") format('woff'),
+         url("../resources/fonts/Dosis-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../resources/fonts/Dosis-Light.eot");
+    src: url("../resources/fonts/Dosis-Light.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/Dosis-Light.woff2") format('woff2'),
+         url("../resources/fonts/Dosis-Light.woff") format('woff'),
+         url("../resources/fonts/Dosis-Light.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSansCondensed";
+    src: url("../resources/fonts/OpenSansCondensed-Bold.eot");
+    src: url("../resources/fonts/OpenSansCondensed-Bold.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/OpenSansCondensed-Bold.woff2") format('woff2'),
+         url("../resources/fonts/OpenSansCondensed-Bold.woff") format('woff'),
+         url("../resources/fonts/OpenSansCondensed-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSansCondensed";
+    src: url("../resources/fonts/OpenSansCondensed-LightItalic.eot");
+    src: url("../resources/fonts/OpenSansCondensed-LightItalic.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/OpenSansCondensed-LightItalic.woff2") format('woff2'),
+         url("../resources/fonts/OpenSansCondensed-LightItalic.woff") format('woff'),
+         url("../resources/fonts/OpenSansCondensed-LightItalic.ttf") format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSansCondensed";
+    src: url("../resources/fonts/OpenSansCondensed-Light.eot");
+    src: url("../resources/fonts/OpenSansCondensed-Light.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/OpenSansCondensed-Light.woff2") format('woff2'),
+         url("../resources/fonts/OpenSansCondensed-Light.woff") format('woff'),
+         url("../resources/fonts/OpenSansCondensed-Light.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Palanquin";
+    src: url("../resources/fonts/Palanquin-Light.eot");
+    src: url("../resources/fonts/Palanquin-Light.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/Palanquin-Light.woff2") format('woff2'),
+         url("../resources/fonts/Palanquin-Light.woff") format('woff'),
+         url("../resources/fonts/Palanquin-Light.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Palanquin";
+    src: url("../resources/fonts/Palanquin-Bold.eot");
+    src: url("../resources/fonts/Palanquin-Bold.eot?#iefix") format('embedded-opentype'),
+         url("../resources/fonts/Palanquin-Bold.woff2") format('woff2'),
+         url("../resources/fonts/Palanquin-Bold.woff") format('woff'),
+         url("../resources/fonts/Palanquin-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

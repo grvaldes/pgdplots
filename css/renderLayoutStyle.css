@@ -1,0 +1,89 @@
+/* HTML properties */
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Palanquin';
+	background-color: #ffffff;
+	margin: 0px;
+	height: 100%;
+	color: #555;
+	font-size: 18px;
+	line-height: 21px;
+	overflow: hidden;
+}
+
+
+
+/* Render divisions */
+#iholder {
+	display: table;
+	position: relative;
+	border: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+#render {
+	position: absolute;
+	width: 82.35vw;
+	height: 100vh;
+	border: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+
+#render.collapse {
+	height: 78vh;
+}
+
+#guidiv {
+	position: absolute;
+	width: 17.65vw;
+	height: 100%;
+	border: 0px;
+	right: 0px;
+	overflow: auto;
+	background: #f2f3f4;
+}
+
+#stati {
+	bottom: 0px;
+	right: 15px;
+	z-index: 1;
+}
+
+
+
+
+/* Mobile version */
+@media all and ( orientation: portrait ) {
+	/* Render division */
+	#guidiv {
+		display: table-cell;
+		height: auto;
+		max-height: 70vh;
+		width: 100vw;
+		bottom: 0px;
+		z-index: 100;
+	}
+	
+	#render {
+		display: table-cell;
+		height: 100vh;	
+		width: 100vw;
+		top: 0px;
+		z-index: 0;
+	}
+	
+	#iholder.collapse {
+		height: 78vh;
+	}
+	
+	#stati {
+		bottom: 20px;
+	}
+}

@@ -1,0 +1,34 @@
+Structure of program
+
+ _ cases
+|  |_ *
+|
+|_ css
+|_ js
+|  |_ core
+|  |_ misc
+|  
+|_ resources
+|
+|_ index.html
+
+
+index.html: main file, access to all cases included. Simple webpage with lateral panel displaying all cases implemented; and an iframe where the case is loaded.
+
+Cases: each case analyzed and implemented in the program is developed independently, so each one has a common structure in an independent subfolder. The subfolder structure is mainly
+
+- caseName
+  |_ includes
+  |_ caseName.htm
+
+caseName.htm corresponds to the webpage loaded into the iframe in the main html file, which include the references to the necessary javascript files.
+
+Includes contains all the javascript files relevant to the particular case, such as results, nodal positions and other functions that are used only locally.
+
+Css: folder containing css style files used in the webpages.
+
+Js: folder containing common javascript files to all pages and cases. Divided into two subfolders:
+•	Core: include the core libraries needed for the program to run (i.e., THREE library, jQuery, dat.GUI).
+•	Misc: includes common functions to be used in different cases, such as linear algebra, common animation functions and others.
+
+Resources: folder with extra resources for the webpage such as icons, images and fonts.

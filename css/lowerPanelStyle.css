@@ -1,0 +1,94 @@
+#pnlnfo {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 22vh;
+	width: 82.35vw;
+	overflow: hidden;
+	background: #eaebec;
+}
+
+#pnlnfo #content .selected {
+	color: #ff0000;
+}
+
+#pnlnfo #content .linky:hover {
+	text-decoration: underline;
+}
+
+#pnlnfo.collapse {
+	display: none;
+}
+
+#pnlnm {
+	padding: 10px 10px 10px 10px;
+	position: absolute;
+	left: 0px;
+	width: 25vw;
+	height: 100%;
+}
+
+#pnlplot1 {
+	position: absolute;
+	right: 45%;
+	top: 2.5%;
+	width: 30vw;
+	height: 95%;
+	border: 1px solid #000;
+}
+
+#pnlplot2 {
+	position: absolute;
+	right: 5%;
+	top: 2.5%;
+	width: 30vw;
+	height: 95%;
+	border: 1px solid #000;
+}
+
+#updateBtn {
+	display: none;
+	position: absolute;
+	padding: 5px 5px 5px 5px;
+	left: 5px;
+	bottom: 5px;
+	background: #eaebec;
+	z-index: 1;
+	font-family: 'Inconsolata';
+	font-weight: bold;
+}
+
+#updateBtn.changed {
+	display: block;
+}
+
+#updateBtn:hover,
+#updateBtn:focus {
+    background: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#closePnl {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 10px;
+	height: 10px;
+	color: #000000;
+	z-index: 100;
+}
+
+
+/* Mobile version */
+@media all and ( orientation: portrait ) {
+	#pnlnfo {
+		display: table-cell;
+		width: 100%;
+	}
+	
+	#pnlplot1 #pnlplot2 {
+		width: 25%;
+	}
+}
