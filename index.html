@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Static problem PGD output</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="icon" href="resources/favic.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/indexLayoutStyle.css">
+	<link rel="stylesheet" href="css/fontsStyle.css">
+	<script type="text/javascript" src="js/core/jquery.js"></script>
+</head>
+
+<body>
+	<div id="panel">
+		<h1>PGD output</h1>
+		<a id="expandButton" href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<div id="content">
+			<h2>2D Cases</h2>
+			<ul>
+				<li><a class="linky" id="2dsolunit" href="#" onclick="getLinkById(this.id)"> Homogenization </a></li>
+				<li><a class="linky" id="2dsolfull" href="#" onclick="getLinkById(this.id)"> Full Pattern   </a></li>
+			</ul>
+
+			<h2>3D Cases</h2>
+			<ul>
+				
+				<li><a class="linky" id="3dsolunit" href="#" onclick="getLinkById(this.id)"> Homogenization </a></li>
+				<li><a class="linky" id="3dsolfull" href="#" onclick="getLinkById(this.id)"> Full Pattern   </a></li>
+			</ul>
+			
+			<h2>Tools</h2>
+			<ul>
+				<li><a class="linky" id="2dparams" href="#" onclick="getLinkById(this.id)"> 2D Cell / Parameters </a></li>
+				<li><a class="linky" id="2dlattic" href="#" onclick="getLinkById(this.id)"> 2D Cell / Lattices   </a></li>
+				
+				<li><a class="linky" id="3dparams" href="#" onclick="getLinkById(this.id)"> 3D Cell / Parameters </a></li>
+				<li><a class="linky" id="3dlattic" href="#" onclick="getLinkById(this.id)"> 3D Cell / Lattices   </a></li>
+			</ul>
+			
+			<h2>On-going</h2>
+			<ul>
+				<li><a class="linky" id="stentsol"  href="#" onclick="getLinkById(this.id)"> Stent / Solution   		 </a></li>
+				<li><a class="linky" id="stentsol2" href="#" onclick="getLinkById(this.id)"> Stent / Solution 2 		 </a></li>
+				<li><a class="linky" id="stentlat"  href="#" onclick="getLinkById(this.id)"> Stent / Parameters			 </a></li>
+				<li><a class="linky" id="pgd2dexnl" href="#" onclick="getLinkById(this.id)"> 2D Cell / Full Pattern (NL) </a></li>
+			</ul>
+			
+			<h2>Others</h2>
+			<ul>
+				<!-- Here is where new cases must be added. An example is set below in order to follow a pattern. -->
+				<!-- <li><a class="linky" id="example1"  href="#" onclick="getLinkById(this.id)"> Example / Muy example </a></li> -->
+			</ul>
+		</div>	
+		
+		<div id="footer">
+			<a id="docs" class="linky" id="docs" href="#" onclick="getDocs()"> Documentation </a>
+			<a id="abot" class="linky" id="docs" href="#" onclick="getAbout()"> About </a>
+		</div>
+	</div>
+	
+	<iframe id="renderframe" name="renderframe" allowfullscreen allowvr onmousewheel=""></iframe>
+
+	<div id="about">
+		<div id="about-content">
+			<span id="closeBtn" onclick="closeAbout()">&times;</span>
+			<p>I made this :D</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="resources/json.js"></script>
+	<script type="text/javascript" src="js/core/funcLoader.js"></script>
+</body>
+
+</html>
